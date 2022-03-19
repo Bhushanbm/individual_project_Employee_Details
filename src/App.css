@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -13,6 +14,14 @@
   }
 }
 
+.head1 {
+    text-align: center;
+    background-image: linear-gradient(to right, skyblue, blue);
+    top: 0;
+    height: 50px;
+    color:#9c0101;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +32,33 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/*#tt1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#tt1 td, #tt1 th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+#tt1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tt1 tr:hover {
+    background-color: #ddd;
+}
+
+#tt1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}*/
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +71,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.inputdata {
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    margin: 20px auto;
+    background: skyblue;
+    box-shadow: 0 0 3px rgba(70, 66, 66, 0.1);
+    border-radius: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.table1{
+    text-align:center;
+}
+
+.head {
+    background-image: linear-gradient(to right, skyblue, blue);
+}
+.col-8{
+    text-align:center;
+}
+#inputdata {
+    text-align: center;
+    height: 180px;
+    width: 500px;
+    margin: 20px auto;
+    background: skyblue;
+    box-shadow: 0 0 3px rgba(70, 66, 66, 0.1);
+    border-radius: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.footer {
+  
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    padding-top: 60px;
+    
 }
